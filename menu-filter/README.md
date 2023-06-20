@@ -19,3 +19,4 @@ A simple menu with catergory filter template using JavaScript
 - CSS
 - JavaScript
 <br>
+  <a href="https://www.freepnglogos.com/pics/javascript" title="Image from freepnglogos.com"><img src="https://www.freepnglogos.com/uploads/javascript/logo-html-5-css-javascript-source-code-for-the-taking-23.png" width="100" alt="logo html 5, css, javascript source code for the taking" /></a>
