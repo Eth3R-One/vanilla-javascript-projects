@@ -10,19 +10,41 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
     <!-- styles -->
-    <link rel="stylesheet" href="../reviews/styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <section class="menu">
-        <div class="title">
-            <h2>Our Menu</h2>
-            <div class="underline"></div>
-        </div>
-        <!-- filter -->
-        <!-- Menu Items -->
-        <div class="section-center">
-            
-        </div>
+      <div class="title">
+        <h2>Our Menu</h2>
+        <div class="underline"></div>
+      </div>
+      <!-- filter buttons-->
+      <div class="btn-container">
+        <!-- <button class="filter-btn" type="button" data-id="all">all</button>
+        <button class="filter-btn" type="button" data-id="breakfast">breakfast</button>
+        <button class="filter-btn" type="button" data-id="lunch">lunch</button>
+        <button class="filter-btn" type="button" data-id="shakes">shakes</button> -->
+      </div>
+      <!-- Menu Items -->
+      <div class="section-center">
+        <!-- Single item -->
+        <article class="menu-item">
+          <img src="./menu-item.jpeg" class="photo" alt="menu item" />
+          <div class="item-info">
+            <header>
+              <h4>Buttermilk pancakes</h4>
+              <h4 class="price">$10</h4>
+            </header>
+            <p class="item-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
+              obcaecati aliquam dolorem ad debitis dignissimos vel eius placeat
+              vitae, optio, adipisci corrupti reiciendis. Natus accusamus nam
+              nisi ea quidem? Debitis.
+            </p>
+          </div>
+        </article>
+        <!-- end of Single item -->
+      </div>
     </section>
     <!-- javascript -->
     <script src="app.js"></script>
