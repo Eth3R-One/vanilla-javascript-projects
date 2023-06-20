@@ -1,8 +1,8 @@
-#Review-carousel template
+##Review-carousel template
 
 A simple review carousel template using JavaScript
 
-This template has:
+##This template has:
 * A simple carousel with reviwes
 * A button to go forward and backward in the carousel and see reviews
 * A button to generate a random review
