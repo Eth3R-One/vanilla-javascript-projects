@@ -28,6 +28,13 @@ const reviews = [
     img: "https://www.course-api.com/images/people/person-3.jpeg",
     text: "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ",
   },
+  {
+    id: 4,
+    name: "Jenne Doe",
+    job: "The Manager",
+    img: "  https://www.course-api.com/images/people/person-5.jpeg",
+    text: "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ",
+  },
 ];
 
 /*
@@ -88,13 +95,11 @@ function getTotalRandom() {
   randomIndex = currentItem;
   while (randomIndex != currentItem) {
     randomIndex = Math.floor(Math.random() * (reviews.length - 1));
-    console.log("Random: ", randomIndex);
   }
   currentItem = randomIndex;
 }
 
 randomBtn.addEventListener("click", function () {
-  console.log("here at random");
   let randomIndex = currentItem;
   while (randomIndex == currentItem) {
     randomIndex = Math.floor(Math.random() * (reviews.length));
