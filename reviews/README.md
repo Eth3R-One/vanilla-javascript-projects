@@ -1,4 +1,5 @@
-# A simple review-carousel template
+#Review-carousel template
+A simple review carousel template using JavaScript
 
-[reviews]: ./screenshots/1.png
-[reviews]: ./screenshots/2.png
+![reviews screenshots](./screenshots/1.png)
+![reviews screenshots](./screenshots/2.png)
