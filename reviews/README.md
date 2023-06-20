@@ -1,1 +1,1 @@
-# vanilla-javascript-projects
+# A simple review-carousel
