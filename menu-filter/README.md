@@ -4,6 +4,8 @@
 
 A simple menu with catergory filter template using JavaScript
 
+This project is a menu with a category filter. It uses a JavaScript array to store the menu items and a function to display the menu items. The function uses the array to display the menu items. The function also uses a filter to display the menu items based on the category selected.
+
 ## This template has:
 
 - A menu with category filter

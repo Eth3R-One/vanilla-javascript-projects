@@ -4,6 +4,7 @@
 
 A simple review carousel template using JavaScript
 
+This project is a template for a reviews section. It uses a JavaScript array to store the reviews and a function to display the reviews. The function uses the array to display the reviews. The function also uses a random number generator to display a random review when the page is loaded or the button is clicked.
 ## This template has:
 
 - A simple carousel with reviwes
